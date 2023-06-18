@@ -1,0 +1,1 @@
+gcc ./src/*.c -o./bin/example.exe -I./include -L./lib -lmingw32 -lSDL2main -lSDL2 -lcimgui
