@@ -2,7 +2,7 @@
 
 Template to start a SDL2/OpenGL project with cimgui for windows.
 
-I made this as simple as possible to use but the reality is if you want more control over the build process you will need to use cmake or create a makefile. If you want to statically link cimgui you should use cmake and I may add one in the future.
+I made this as simple as possible to use but the reality is if you want more control over the build process you will need to use cmake or create a makefile.
 
 Instructions
   - Clone the repository.
