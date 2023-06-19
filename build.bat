@@ -18,7 +18,7 @@ if exist %BUILD_DIR%%PROJECT_NAME%.exe (
 %COMMAND% %SOURCE_DIR% -o%BUILD_DIR%%PROJECT_NAME% -I%INCLUDE_DIR% -L%LIB_DIR% -lmingw32 -lSDL2main -lSDL2 -lcimgui_sdl
 
 @echo off
-REM Check if project built successfully or not if it did run the project.
+REM If project successfully built start it otherwise build failed.
 if exist %BUILD_DIR%%PROJECT_NAME%.exe (
     echo Build success!
     cd .\bin\
