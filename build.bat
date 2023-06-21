@@ -21,7 +21,7 @@ if exist %BUILD_DIR%%PROJECT_NAME%.exe (
 REM If project successfully built start it otherwise build failed.
 if exist %BUILD_DIR%%PROJECT_NAME%.exe (
     echo Build success!
-    cd .\bin\
+    cd %BUILD_DIR%
     START %PROJECT_NAME%.exe
 ) else (
     echo Build failed!
